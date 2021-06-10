@@ -1,24 +1,56 @@
 # UPS-Monitor
-Monitor UPS data via APCD and NUT protocols on a local or remote server
 
-Features / Quick Help:
+Monitors UPS Status and Events via APCD and NUT protocols. 
 
-UPS-Monitor connects to APCUPSD and NUT monitored UPS's
+A handy little tool to monitor local or remote UPS's.
 
-Connection information can be added on the settings page. 
+Fully configurable, lightweight and portable.
 
-Automatic shutdown on low battery can be configured.
 
-Application can be hidden in the system tray.
+Requirements: 
 
-All settings can also be accessed via the application's INI file. 
+- APCUPSD and/or NUT need to be running somewhere on your network.
 
-MiniView Controls can be turned on/off individually.
 
-Move over an element to show usage hints. 
+Features:
 
-System-Tray Icon Click shows the MiniView
+- Supports APCUPD and NUT protocols
 
-System-Tray Icon DBL-Click shows the MainWindow.
+- Configurable automatic shutdown on low battery.
 
-Application can be closed by <RMB>+Exit  on the system tray icon
+- Application can be hidden in the system tray.
+
+- Various configurable Mini View Windows. 
+
+- Can start Minimized
+
+- Minimize to System-Tray
+
+- System Tray Icon shows dynamically updated Status Info
+ 
+- Help via MouseOver Hints 
+
+- Separate Logfiles for each connection 
+
+- Various UPS stati can be simulated (OnBattery, LowBattery, Overload etc.) for testing purposes.
+
+- can monitor almost unlimited # of UPS's.
+
+- run multiple instances to monitor more than two UPS's.
+
+
+Get started: 
+
+- copy the UPS-Monitor.exe to a writable folder and run it. 
+ 
+- Ini and Log files will be created on first start. 
+
+- Connection Details can be added on the settings page. 
+
+- All settings can also be managed via the application's INI file. 
+
+- System-TrayIcon LeftClick shows the MiniViews
+
+- System-TrayIcon DoubleClick shows the MainWindow.
+
+- System-TrayIcon RightClick shows PopUpMenu - choose 'Exit' to close UPS-Monitor.
