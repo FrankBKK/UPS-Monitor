@@ -41,6 +41,8 @@ Features:
 - run multiple instances to monitor more than two UPS's.
 
 
+![Image of MainForm](https://github.com/FrankBKK/UPS-Monitor/blob/main/Screenshoot-Ups-Monitor.jpg)
+
 Get started: 
 
 - copy the UPS-Monitor.exe to a writable folder and run it. 
