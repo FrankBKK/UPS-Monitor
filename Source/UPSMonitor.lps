@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Debug"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="UPSMonitor.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos Y="22"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uupsmonitormain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fUpsMonitorMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uUpsMonitorMain"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="779"/>
+        <CursorPos X="3" Y="743"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="2">
+          <Item0 Y="2546" ID="1"/>
+          <Item1 Y="338"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="unutminiview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fNUTMiniView"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uNUTMiniView"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="133"/>
+        <CursorPos X="85" Y="152"/>
+        <UsageCount Value="180"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uapcminiview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAPCMiniView"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAPCMiniView"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="34"/>
+        <CursorPos X="3" Y="67"/>
+        <UsageCount Value="62"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uapclogview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAPCLogView"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAPCLogView"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="70"/>
+        <CursorPos Y="90"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="unutlogview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fNUTLogView"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uNUTLogView"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="37"/>
+        <CursorPos X="66" Y="80"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uapceventsview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAPCEventsView"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAPCEventsView"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="67"/>
+        <CursorPos Y="90"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="uupsmonitorabout.pas"/>
+        <ComponentName Value="fAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uUpsMonitorAbout"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="37" Y="44"/>
+        <UsageCount Value="51"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\config\onlinepackagemanager\packages\DataPort\DataPortIP.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="76"/>
+        <CursorPos X="5" Y="97"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\components\StrMan\StrMan.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7982"/>
+        <CursorPos X="71" Y="8001"/>
+        <UsageCount Value="15"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\components\StrMan\xProcs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2685"/>
+        <CursorPos X="4" Y="2700"/>
+        <UsageCount Value="1"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6354"/>
+        <CursorPos Y="6367"/>
+        <UsageCount Value="16"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\components\StrMan\StrMan.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="34" Y="26"/>
+        <UsageCount Value="3"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\lcl\include\containedaction.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="83"/>
+        <CursorPos Y="98"/>
+        <UsageCount Value="3"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\config\onlinepackagemanager\packages\industrialstuff\source\a3naloggauge.pas"/>
+        <UnitName Value="A3nalogGauge"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="238"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\components\fundamentals5-5.0.8\Utils\flcStrings.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="10855"/>
+        <CursorPos X="10" Y="10870"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\Users\Frank\AppData\Local\Temp\.ptmp46D10B\uupsmonitorabout.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="unutlogview.pas"/>
+        <Caret Line="46" TopLine="31"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unutlogview.pas"/>
+        <Caret Line="59" Column="3" TopLine="46"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unutlogview.pas"/>
+        <Caret Line="71" Column="3" TopLine="52"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unutlogview.pas"/>
+        <Caret Line="77" Column="3" TopLine="58"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unutlogview.pas"/>
+        <Caret Line="88" Column="3" TopLine="65"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uapceventsview.pas"/>
+        <Caret Line="44" TopLine="24"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uapceventsview.pas"/>
+        <Caret Line="48" TopLine="28"/>
+      </Position7>
+      <Position8>
+        <Filename Value="uapceventsview.pas"/>
+        <Caret Line="77" Column="3" TopLine="58"/>
+      </Position8>
+      <Position9>
+        <Filename Value="uapceventsview.pas"/>
+        <Caret Line="83" Column="3" TopLine="64"/>
+      </Position9>
+      <Position10>
+        <Filename Value="uapceventsview.pas"/>
+        <Caret Line="89" Column="3" TopLine="70"/>
+      </Position10>
+      <Position11>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="1344" Column="28" TopLine="1330"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="1640" Column="54" TopLine="1631"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="1272" TopLine="1262"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="1408" Column="5" TopLine="1387"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="2333" Column="69" TopLine="2333"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="2334" Column="72" TopLine="2323"/>
+      </Position16>
+      <Position17>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="2336" Column="72" TopLine="2325"/>
+      </Position17>
+      <Position18>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="2600" Column="53" TopLine="2597"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="2601" Column="53" TopLine="2598"/>
+      </Position19>
+      <Position20>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="2600" Column="53" TopLine="2597"/>
+      </Position20>
+      <Position21>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="2599" Column="53" TopLine="2596"/>
+      </Position21>
+      <Position22>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="2605" Column="53" TopLine="2602"/>
+      </Position22>
+      <Position23>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="1342" Column="3" TopLine="1340"/>
+      </Position23>
+      <Position24>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="1337" Column="3" TopLine="1356"/>
+      </Position24>
+      <Position25>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="2611" TopLine="2591"/>
+      </Position25>
+      <Position26>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="1337" Column="25" TopLine="1336"/>
+      </Position26>
+      <Position27>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="1349" Column="3" TopLine="1336"/>
+      </Position27>
+      <Position28>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="1344" Column="31" TopLine="1335"/>
+      </Position28>
+      <Position29>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="749" Column="3" TopLine="736"/>
+      </Position29>
+      <Position30>
+        <Filename Value="uupsmonitormain.pas"/>
+        <Caret Line="1338" Column="52" TopLine="1326"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="giAPCLogMiniViewTop"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,75 @@
+object fNUTLogView: TfNUTLogView
+  Left = 1064
+  Height = 250
+  Top = 184
+  Width = 380
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'NUT Log View'
+  ClientHeight = 250
+  ClientWidth = 380
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object mmNUTLog: TMemo
+    Left = 0
+    Height = 228
+    Hint = '<DBL-Click> to delete logbook '#13#10'<CTRL+C> to copy to clipboard'
+    Top = 0
+    Width = 380
+    Align = alClient
+    OnMouseDown = sbMoveMouseDown
+    OnMouseMove = sbMoveMouseMove
+    OnMouseUp = sbMoveMouseUp
+    ParentShowHint = False
+    ScrollBars = ssAutoBoth
+    ShowHint = True
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 22
+    Top = 228
+    Width = 380
+    Align = alBottom
+    Alignment = taLeftJustify
+    Caption = '  NUT Log Mini View'
+    ClientHeight = 22
+    ClientWidth = 380
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnMouseDown = sbMoveMouseDown
+    OnMouseMove = sbMoveMouseMove
+    OnMouseUp = sbMoveMouseUp
+    object sbMinimize: TSpeedButton
+      Left = 315
+      Height = 20
+      Hint = 'Minimize'
+      Top = 1
+      Width = 32
+      Align = alRight
+      Images = fUpsMonitorMain.ImageList
+      ImageIndex = 215
+      OnClick = sbMinimizeClick
+      ShowCaption = False
+      ShowHint = True
+      ParentShowHint = False
+    end
+    object sbMove: TSpeedButton
+      Left = 347
+      Height = 20
+      Hint = 'Move Window'
+      Top = 1
+      Width = 32
+      Align = alRight
+      Images = fUpsMonitorMain.ImageList
+      ImageIndex = 216
+      OnMouseDown = sbMoveMouseDown
+      OnMouseMove = sbMoveMouseMove
+      OnMouseUp = sbMoveMouseUp
+      ShowCaption = False
+      ShowHint = True
+      ParentShowHint = False
+    end
+  end
+end

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="UPS-Monitor"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="21"/>
+      <MinorVersionNr Value="6"/>
+      <RevisionNr Value="10"/>
+      <BuildNr Value="80"/>
+      <StringTable Comments="no comment" CompanyName="FrankBKK@gmail.com" FileDescription="Monitor UPS data via APCD and NUT protocols on a local or remote server" InternalName="UPS-Monitor" LegalCopyright="© FrankBKK@gmail.com" LegalTrademarks="® FrankBKK@gmail.com" OriginalFilename="UPS-Monitor" ProductName="UPS-Monitor" ProductVersion="1.0"/>
+    </VersionInfo>
+    <BuildModes Count="2">
+      <Item1 Name="Debug" Default="True"/>
+      <Item2 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="$(LazarusDir)\Projects\UPS-Monitor\Runtime\UPSMonitor"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir);..\..\..\components\jcf2\Include"/>
+            <OtherUnitFiles Value="..\..\..\components\fundamentals5-5.0.8\Utils;..\..\..\components\StrMan"/>
+            <UnitOutputDirectory Value="$(LazarusDir)\Projects\UPS-Monitor\CompilerOutput"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="$(ProjPath)\..\published\"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0"/>
+    </RunParams>
+    <RequiredPackages Count="18">
+      <Item1>
+        <PackageName Value="jujiboutils"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="JvHMILazR"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="JvJansLazR"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="splashabout"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="poweredby"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="bgracontrols"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="pl_ExControls"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="pl_Cindy"/>
+      </Item8>
+      <Item9>
+        <PackageName Value="eccontrols"/>
+      </Item9>
+      <Item10>
+        <PackageName Value="pascalscada_hmi"/>
+      </Item10>
+      <Item11>
+        <PackageName Value="pascalscada"/>
+      </Item11>
+      <Item12>
+        <PackageName Value="uEControls"/>
+      </Item12>
+      <Item13>
+        <PackageName Value="industrial"/>
+      </Item13>
+      <Item14>
+        <PackageName Value="laz_systoolswin"/>
+      </Item14>
+      <Item15>
+        <PackageName Value="FCL"/>
+      </Item15>
+      <Item16>
+        <PackageName Value="DataPortLasarus"/>
+      </Item16>
+      <Item17>
+        <PackageName Value="rxnew"/>
+      </Item17>
+      <Item18>
+        <PackageName Value="LCL"/>
+      </Item18>
+    </RequiredPackages>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="UPSMonitor.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uupsmonitormain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fUpsMonitorMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uUpsMonitorMain"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="unutminiview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fNUTMiniView"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uNUTMiniView"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uapcminiview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAPCMiniView"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAPCMiniView"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uapclogview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAPCLogView"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAPCLogView"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="unutlogview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fNUTLogView"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uNUTLogView"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uapceventsview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAPCEventsView"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAPCEventsView"/>
+      </Unit6>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="$(LazarusDir)\Projects\UPS-Monitor\Runtime\UPS-Monitor"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);..\..\..\components\jcf2\Include"/>
+      <OtherUnitFiles Value="..\..\..\components\fundamentals5-5.0.8\Utils;..\..\..\components\StrMan"/>
+      <UnitOutputDirectory Value="$(LazarusDir)\Projects\UPS-Monitor\CompilerOutput"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <IncludeAssertionCode Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <VerifyObjMethodCallValidity Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

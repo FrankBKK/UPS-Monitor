@@ -1,0 +1,209 @@
+object fNUTMiniView: TfNUTMiniView
+  Left = 1450
+  Height = 190
+  Top = 151
+  Width = 160
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'NUT-Mini View'
+  ClientHeight = 190
+  ClientWidth = 160
+  FormStyle = fsSystemStayOnTop
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnDblClick = FormDblClick
+  OnHide = FormHide
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  PopupMenu = fUpsMonitorMain.pmUpsMonitor
+  ShowInTaskBar = stNever
+  LCLVersion = '2.0.12.0'
+  object sbStatus: TSpeedButton
+    Left = 0
+    Height = 22
+    Hint = 'Switch UPS View'
+    Top = 168
+    Width = 32
+    Color = clDefault
+    Images = fUpsMonitorMain.ImageList
+    ImageIndex = 206
+    OnClick = sbStatusClick
+    ShowCaption = False
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object imLoad: TA3nalogGauge
+    Left = 0
+    Height = 90
+    Hint = 'Load (%)'
+    Top = 0
+    Width = 160
+    Angle = 90
+    AntiAliased = aaBiline
+    Caption = 'Load'
+    Align = alTop
+  end
+  object cyBattery: TcySimpleGauge
+    Left = 0
+    Height = 33
+    Hint = 'Battery Charge (%)'
+    Top = 90
+    Width = 161
+    ShowHint = True
+    DegradeBalance = 50
+    ItemOffBrush.Color = clGray
+    ItemOnBrush.Color = clAqua
+    ItemOnPen.Color = 16744448
+    OnClick = FormDblClick
+    OnMouseDown = FormMouseDown
+    OnMouseMove = FormMouseMove
+    OnMouseUp = FormMouseUp
+    ItemsCount = 10
+    ItemsWidth = 14
+    ItemsHeight = 21
+    Max = 100
+    Bevels = <    
+      item
+        HighlightColor = clBlack
+        ShadowColor = clBlack
+      end    
+      item
+        Width = 3
+      end    
+      item
+        Style = bcLowered
+      end    
+      item
+        HighlightColor = clBlack
+        ShadowColor = clBlack
+      end>
+    Position = 50
+    Step = 1
+  end
+  object sbMinimize: TSpeedButton
+    Left = 96
+    Height = 22
+    Hint = 'Minimize'
+    Top = 168
+    Width = 32
+    Images = fUpsMonitorMain.ImageList
+    ImageIndex = 215
+    OnClick = sbMinimizeClick
+    ShowCaption = False
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object sbMove: TSpeedButton
+    Left = 128
+    Height = 22
+    Hint = 'Move Window'
+    Top = 168
+    Width = 32
+    Images = fUpsMonitorMain.ImageList
+    ImageIndex = 216
+    OnMouseDown = FormMouseDown
+    OnMouseMove = FormMouseMove
+    OnMouseUp = FormMouseUp
+    ShowCaption = False
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object sbAPCInfo: TSpeedButton
+    Left = 32
+    Height = 22
+    Hint = 'APC-Info'
+    Top = 168
+    Width = 32
+    Caption = 'APC Info'
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFFFFFEFE
+      FEFFFFFFFFFFE6E6E6FFA8A9A9FFA6A8A8FFA6A8A8FFA6A8A8FFA6A8A8FFA6A8
+      A8FFA6A8A8FFA7A8A8FFE6E6E6FFFEFEFEFFFFFFFFFFFFFFFFFFFEFEFEFFFEFE
+      FEFFFEFEFEFF5B5D5DFF727373FF848585FF848585FF848585FF848585FF8485
+      85FF848585FF727373FF5B5D5DFFFEFEFEFFFEFEFEFFFFFFFFFFFFFFFFFFFEFE
+      FEFFFEFEFEFF4F5050FFCBCCCCFFC9CACAFFCACACAFFDEDEDEFFDEDFDFFFC9CA
+      CAFFCACACAFFCBCCCCFF4F5050FFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFE
+      FEFFFEFEFEFF4F5050FFBDBEBEFFA4A6A6FFA4A5A5FFC5C6C6FFC5C6C6FFA4A6
+      A6FFA4A5A5FFBDBEBEFF4E5050FFFEFEFEFFFEFEFEFFFFFFFFFFFFFFFFFFFEFE
+      FEFFFEFEFEFF4F5050FFAEAFAFFF717272FF717373FFA6A6A6FFA5A6A6FF7172
+      72FF717373FFAEAFAFFF4F5151FFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFE
+      FEFFFEFEFEFF4F5050FFAEAFAFFF727373FF727373FFA6A7A7FFA6A7A7FF7273
+      73FF727373FFAEAFAFFF4E5050FFFEFEFEFFFEFEFEFFFFFFFFFFFFFFFFFFFEFE
+      FEFFFEFEFEFF4F5050FFDBDBDBFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFE
+      FEFFFEFEFEFFDBDBDBFF4F5050FFFEFEFEFFFEFEFEFFFEFEFEFFFFFFFFFFFEFE
+      FEFFFEFEFEFF4F5050FFDBDBDBFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFE
+      FEFFFEFEFEFFDBDBDBFF4E5050FFFEFEFEFFFEFEFEFFFFFFFFFFFFFFFFFFFEFE
+      FEFFFEFEFEFF4F5050FFDBDBDBFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFE
+      FEFFFEFEFEFFDBDBDBFF4F5151FFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFE
+      FEFFFEFEFEFF4F5050FFDBDBDBFFFEFEFEFFFEFEFEFFC8C9C9FFC8C8C8FFFEFE
+      FEFFFEFEFEFFDBDBDBFF4E5050FFFEFEFEFFFEFEFEFFFFFFFFFFFFFFFFFFFEFE
+      FEFFFEFEFEFF4F5050FFDBDBDBFFFEFEFEFFFEFEFEFFE8E8E8FFE8E8E8FFFEFE
+      FEFFFEFEFEFFDBDBDBFF4F5151FFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFE
+      FEFFFEFEFEFF4F5050FFDBDBDBFFFEFEFEFFFAFAFAFF747575FF747575FFFAFA
+      FAFFFEFEFEFFDBDBDBFF4E5050FFFEFEFEFFFEFEFEFFFEFEFEFFFFFFFFFFFEFE
+      FEFFFEFEFEFF4F5050FFDBDBDBFFFEFEFEFFE7E7E7FF727474FF737474FFE6E7
+      E7FFFEFEFEFFDBDBDBFF4E5050FFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFE
+      FEFFFEFEFEFF4F5050FFDBDBDBFFFEFEFEFFFEFEFEFFBABBBBFFBABBBBFFFEFE
+      FEFFFEFEFEFFDBDBDBFF4E5050FFFEFEFEFFFEFEFEFFFFFFFFFFFFFFFFFFFEFE
+      FEFFFEFEFEFF5B5D5DFF727373FF838585FF848585FF848585FF838585FF8485
+      85FF838585FF727373FF5B5D5DFFFEFEFEFFFEFEFEFFFEFEFEFFFFFFFFFFFFFF
+      FFFFFEFEFEFFE6E6E6FFA8A8A8FFA7A8A8FFA7A8A8FFA7A8A8FFA7A8A8FFA7A8
+      A8FFA7A7A7FFA8A9A9FFE6E6E6FFFFFFFFFFFEFEFEFFFFFFFFFF
+    }
+    Images = fUpsMonitorMain.ImageList
+    ImageIndex = 219
+    ImageWidth = 16
+    OnClick = sbAPCInfoClick
+    ShowCaption = False
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object pnMiniRuntime: TPanel
+    Left = 0
+    Height = 45
+    Hint = 'Runtime on Battery left'
+    Top = 123
+    Width = 160
+    BevelColor = clBackground
+    BevelInner = bvRaised
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    Caption = '999.9 mins'
+    ClientHeight = 41
+    ClientWidth = 156
+    Color = clLime
+    Font.Height = -32
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+    object lbUPSactive: TLabel
+      Left = 135
+      Height = 12
+      Top = 1
+      Width = 19
+      Alignment = taRightJustify
+      Caption = 'NUT'
+      Font.Height = -9
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object sbNUTInfo: TSpeedButton
+    Left = 64
+    Height = 22
+    Hint = 'NUT-Info'
+    Top = 168
+    Width = 32
+    Images = fUpsMonitorMain.ImageList
+    ImageIndex = 218
+    OnClick = sbNUTInfoClick
+    ShowHint = True
+    ParentShowHint = False
+  end
+end

@@ -1,0 +1,96 @@
+object fAPCEventsView: TfAPCEventsView
+  Left = 1024
+  Height = 250
+  Top = 229
+  Width = 475
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'APC Events View'
+  ClientHeight = 250
+  ClientWidth = 475
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object sgEventsS: TStringGrid
+    Left = 0
+    Height = 228
+    Hint = '<DBL-Click> maximize/minimize view '
+    Top = 0
+    Width = 475
+    Align = alClient
+    AutoEdit = False
+    ColCount = 2
+    ColumnClickSorts = True
+    FixedCols = 0
+    HeaderHotZones = [gzNormal, gzFixedCols, gzInvalid]
+    HeaderPushZones = [gzNormal, gzFixedCols, gzInvalid]
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goAutoAddRows, goRowSelect, goDblClickAutoSize, goSmoothScroll, goFixedColSizing]
+    Options2 = [goScrollToLastRow]
+    ParentShowHint = False
+    RowCount = 1
+    ShowHint = True
+    TabOrder = 0
+    OnMouseDown = sbMoveMouseDown
+    OnMouseMove = sbMoveMouseMove
+    OnMouseUp = sbMoveMouseUp
+    ColWidths = (
+      153
+      300
+    )
+    Cells = (
+      2
+      0
+      0
+      'Timestamp'
+      1
+      0
+      'Event'
+    )
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 22
+    Top = 228
+    Width = 475
+    Align = alBottom
+    Alignment = taLeftJustify
+    Caption = '  APC Events Mini View'
+    ClientHeight = 22
+    ClientWidth = 475
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnMouseDown = sbMoveMouseDown
+    OnMouseMove = sbMoveMouseMove
+    OnMouseUp = sbMoveMouseUp
+    object sbMinimize: TSpeedButton
+      Left = 410
+      Height = 20
+      Hint = 'Minimize'
+      Top = 1
+      Width = 32
+      Align = alRight
+      Images = fUpsMonitorMain.ImageList
+      ImageIndex = 215
+      OnClick = sbMinimizeClick
+      ShowCaption = False
+      ShowHint = True
+      ParentShowHint = False
+    end
+    object sbMove: TSpeedButton
+      Left = 442
+      Height = 20
+      Hint = 'Move Window'
+      Top = 1
+      Width = 32
+      Align = alRight
+      Images = fUpsMonitorMain.ImageList
+      ImageIndex = 216
+      OnMouseDown = sbMoveMouseDown
+      OnMouseMove = sbMoveMouseMove
+      OnMouseUp = sbMoveMouseUp
+      ShowCaption = False
+      ShowHint = True
+      ParentShowHint = False
+    end
+  end
+end
