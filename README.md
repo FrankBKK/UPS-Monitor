@@ -1,6 +1,6 @@
 # UPS-Monitor
 
-![Image of MiniView](https://github.com/FrankBKK/UPS-Monitor/blob/main/Screenshoot-MiniView.jpg)
+![Image of MiniView](https://github.com/FrankBKK/UPS-Monitor/blob/main/Screenshots/Screenshot-MiniView.jpg)
 
 Monitors UPS Status and Events via APCD and NUT protocols. 
 
@@ -41,7 +41,7 @@ Fully configurable, lightweight and portable.
 - run multiple instances to monitor more than two UPS's.
 
 
-![Image of MainForm](https://github.com/FrankBKK/UPS-Monitor/blob/main/Screenshoot-Ups-Monitor.jpg)
+![Image of MainForm](https://github.com/FrankBKK/UPS-Monitor/blob/main/Screenshots/Screenshot-Ups-Monitor.jpg)
 
 ## Get started: 
 
