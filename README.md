@@ -1,5 +1,7 @@
 # UPS-Monitor
 
+![Image of MiniView](https://github.com/FrankBKK/UPS-Monitor/blob/main/Screenshoot-MiniView.jpg)
+
 Monitors UPS Status and Events via APCD and NUT protocols. 
 
 A handy little tool to monitor local or remote UPS's.
