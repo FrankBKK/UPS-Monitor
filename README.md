@@ -9,12 +9,12 @@ A handy little tool to monitor local or remote UPS's.
 Fully configurable, lightweight and portable.
 
 
-Requirements: 
+## Requirements: 
 
 - APCUPSD and/or NUT need to be running somewhere on your network.
 
 
-Features:
+## Features:
 
 - Supports APCUPD and NUT protocols
 
@@ -43,7 +43,7 @@ Features:
 
 ![Image of MainForm](https://github.com/FrankBKK/UPS-Monitor/blob/main/Screenshoot-Ups-Monitor.jpg)
 
-Get started: 
+## Get started: 
 
 - copy the UPS-Monitor.exe to a writable folder and run it. 
  
